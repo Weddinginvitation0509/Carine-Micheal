@@ -557,12 +557,13 @@
     background: var(--cream);
   }
   
-  .story__layout {
+ .story__layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: clamp(2rem, 5vw, 4rem);
+    justify-items: center;
     align-items: center;
-  }
+}
   
   .story__image {
     position: relative;
