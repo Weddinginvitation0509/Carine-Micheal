@@ -712,8 +712,16 @@
   }
   
   .details__action {
-    text-align: center;
-  }
+    margin-bottom: 20px;
+}
+
+.details__action:last-child {
+    margin-bottom: 0;
+}
+.details__action {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
   
   /* ---- Gallery ---- */
   .gallery {
