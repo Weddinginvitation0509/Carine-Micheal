@@ -564,7 +564,15 @@
     justify-items: center;
     align-items: center;
 }
-  
+  .story__content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.story__image {
+    display: none;
+}
   .story__image {
     position: relative;
   }
